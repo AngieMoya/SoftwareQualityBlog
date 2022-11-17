@@ -1,0 +1,46 @@
+.Aboutblog{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px 40px 0px;
+}
+
+.Aboutblog div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.Aboutblog h2{
+    text-align: center;
+    font-weight: 300;
+    margin:40px
+}
+
+.Aboutblog h3{
+    text-align: center;
+    font-weight: 300;
+    margin:40px;
+    color: #BDC3C7;
+}
+
+
+
+
+img{
+    width: 19.5rem;
+}
+
+.titleLight{
+    color: #fff;
+}
+
+.titleDark{
+    color:#000;
+}
+
+@media(min-width:1024px){
+    .Aboutblog div{
+        width: 50%;
+    }
+}

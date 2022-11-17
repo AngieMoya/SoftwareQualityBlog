@@ -1,0 +1,28 @@
+.Footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 22px;
+    border-top: 1px  solid rgba(153, 163, 164, 0.4);
+
+}
+
+.Footer img{
+    width: 32px;
+}
+
+.socialNetworks{
+    width: 11.25rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 14px;
+}
+
+.textDark{
+    color: #fff;
+}
+.textLight{
+    color: #000;
+}

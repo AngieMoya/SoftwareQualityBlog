@@ -1,0 +1,73 @@
+.Header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imageHeader{
+    width: 19.5rem;
+}
+
+.textContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+.Header h1{
+    font-weight:400;
+    text-align: center;
+}
+
+.headerTextLight{
+    color: #fff;
+}
+
+.headerTextDark{
+    color: #000;
+}
+
+.secundaryText{
+    color: #BDC3C7 ;
+}
+
+.Header button{
+    display: flex;
+    align-items: center;
+    justify-content: first baseline;
+    margin-top: 46px;
+    border-style: none;
+    width: 100%;
+    background-color: transparent;
+    border: 1.5px solid #BDC3C7;
+    padding: 26px;
+    border-radius: 32px;
+    color: #BDC3C7;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.Header button img{
+    width: 30px;
+    padding: 6px;
+}
+
+.Header button:hover{
+    border-color: #2ECC71;
+}
+
+
+@media(min-width:1024px){
+    .Header{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .textContainer{
+        width: 40%;
+    }
+}
+

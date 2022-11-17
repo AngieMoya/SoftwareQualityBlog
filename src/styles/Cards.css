@@ -1,0 +1,27 @@
+.Cards {
+  background-color: #34495e;
+}
+
+.Cards div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.Cards div a {
+  text-decoration: none;
+  color: #fff;
+}
+
+@media (min-width: 1024px) {
+  .Cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}
+
+

@@ -1,0 +1,23 @@
+.Card img{
+    width: 23.75rem;
+    height: 31.5rem;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.Card h2{
+    text-align: center;
+    font-weight: 300;
+    height: 20%;
+}
+
+.Card:hover{
+    color:#2ECC71;
+    opacity: 0.4;
+}
+
+@media(min-width:1024px){
+    .Card img{
+        width: 25rem;
+    }
+}

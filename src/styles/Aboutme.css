@@ -1,0 +1,57 @@
+.Aboutme{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 18px;
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+    padding: 20px;
+}
+
+.profileImage{
+    width: 150px;
+    height: 150px;
+    background-image: url(../assets/profile.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+.prologo{
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.Aboutme h2, .Aboutme p{
+    font-weight: 400;
+    text-align: center;
+}
+
+.Aboutme .prologo p{
+    text-align: justify;
+}
+
+@media(min-width:1024px){
+    .Aboutme{
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: 0px 40px 0px 40px;
+    }
+
+    .prologo{
+        width: 60%;
+    }
+
+    .profile{
+        width: 30%;
+    }
+}
+
