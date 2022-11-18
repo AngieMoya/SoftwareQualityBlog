@@ -1,0 +1,62 @@
+.QualityConcepts{
+    display: flex;
+    min-height: 100vh;
+    padding: 20px;
+    font-size: 1rem;
+
+}
+
+.lessonContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.webContent{
+    display: none;
+    border-right: 2px solid rgba(189, 195, 199, 0.2);
+    padding: 20px;
+}
+
+.webContent li{
+    line-height: 2.5rem;
+}
+
+.references li{
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.responsiveLesson{
+    padding: 20px;
+    text-align: justify;
+}
+
+.responsiveLesson h2{
+    text-align: center;
+}
+
+.references h3{
+    font-weight: 400;
+    text-align: center;
+    color: rgb(189, 195, 199);
+}
+
+.references li{
+    color: rgb(189, 195, 199);
+}
+
+
+
+
+
+
+@media(min-width:1024px){
+    .webContent{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+    }
+    .lessonContainer{
+        width: 70%;
+    }
+}

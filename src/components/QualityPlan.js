@@ -3,9 +3,7 @@ import React from "react";
 function QualityPlan(){
 
     return(
-        <div>
-            <h1>Plan de calidad</h1>
-        </div>
+        <div className="QualityPlan">plan de calidad</div>
     )
 }
 
