@@ -1,0 +1,21 @@
+.QualityPlan {
+    display: flex;
+    min-height: 100vh;
+    padding: 20px;
+    font-size: 1rem;
+}
+
+
+
+
+@media (min-width: 1024px) {
+    .webContent {
+      display: flex;
+      flex-direction: column;
+      width: 30%;
+    }
+    .lessonContainer {
+      width: 70%;
+      padding: 20px;
+    }
+  }

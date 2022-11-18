@@ -1,62 +1,98 @@
-.QualityConcepts{
-    display: flex;
-    min-height: 100vh;
-    padding: 20px;
-    font-size: 1rem;
-
+.QualityConcepts {
+  display: flex;
+  min-height: 100vh;
+  padding: 20px;
+  font-size: 1rem;
 }
 
-.lessonContainer{
+.QualityConcepts section{
+    margin-bottom: 80px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+    
+
+.QualityConcepts p {
+  text-align: justify;
 }
 
-.webContent{
-    display: none;
-    border-right: 2px solid rgba(189, 195, 199, 0.2);
-    padding: 20px;
+.QualityConcepts img{
+    margin-top: 40px;
 }
 
-.webContent li{
-    line-height: 2.5rem;
+.lessonContainer {
+  display: flex;
+  flex-direction: column;
 }
 
-.references li{
-    font-size: 1rem;
-    line-height: 1.5rem;
+.webContent {
+  display: none;
+  border-right: 2px solid rgba(189, 195, 199, 0.2);
+  padding: 20px;
 }
 
-.responsiveLesson{
-    padding: 20px;
-    text-align: justify;
+.webContent li {
+  line-height: 2.5rem;
 }
 
-.responsiveLesson h2{
-    text-align: center;
+.references{
+    border: 1px solid rgb(189, 195, 199);
+    border-radius: 24px;
+    background-color:  rgba(189, 195, 199, 0.1);
+    padding: 6px;
+    margin-bottom: 40px;
 }
 
-.references h3{
+.references li {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  list-style: circle;
+}
+
+.references h3 {
     font-weight: 400;
     text-align: center;
     color: rgb(189, 195, 199);
-}
-
-.references li{
+  }
+  
+  .references li {
     color: rgb(189, 195, 199);
+  }
+
+.responsiveLesson {
+  text-align: justify;
+}
+
+.responsiveLesson h2 {
+  text-align: center;
 }
 
 
 
+.QualityConcepts .assurance li {
+  font-size: 1rem;
+  line-height: 2.5rem;
+  list-style: circle;
+  text-align: justify;
+}
+
+.control li {
+  list-style: decimal;
+  line-height: 1.5rem;
+  text-align: justify;
+}
 
 
 
-@media(min-width:1024px){
-    .webContent{
-        display: flex;
-        flex-direction: column;
-        width: 30%;
-    }
-    .lessonContainer{
-        width: 70%;
-    }
+@media (min-width: 1024px) {
+  .webContent {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+  }
+  .lessonContainer {
+    width: 70%;
+    padding: 20px;
+  }
 }

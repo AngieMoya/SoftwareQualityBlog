@@ -1,11 +1,15 @@
-export
+export {
+  Unity1,
+  Unity2,
+  Unity3,
+  Unity4
+}
 
-const unity1 = [
+const Unity1 = [
   "Introducción a la Calidad",
   "Control de Calidad",
-  "Garantía de la Calidad",
-  "Costo de la Calidad",
-  "Actividades del SQA",
+  "Aseguramiento de la Calidad",
+  "SQA",
 ];
 
 const Unity2 = [
