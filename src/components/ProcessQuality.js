@@ -1,5 +1,5 @@
 import React from "react";
-import { Outlet, useOutletContext } from "react-router-dom";
+import { useOutletContext } from "react-router-dom";
 import Content from "./Content";
 import Lesson from "./Lesson";
 import { Unity3 } from "../assets/themesData";

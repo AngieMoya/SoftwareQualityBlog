@@ -1,5 +1,5 @@
 import React from "react";
-import { Outlet, useOutletContext } from "react-router-dom";
+import { useOutletContext } from "react-router-dom";
 import "../styles/Aboutme.css";
 
 function Aboutme() {

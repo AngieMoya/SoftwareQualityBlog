@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import "../styles/Header.css";
 import QA from "../assets/qa.png";
-import Explore from "../assets/explore.png";
 
 function Header({ stateBackgroundMode }) {
   const textChange = stateBackgroundMode ? "headerTextDark" : "headerTextLight";
