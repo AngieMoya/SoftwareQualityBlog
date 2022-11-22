@@ -1,28 +1,22 @@
-.QualityConcepts {
+.TechnicalReviews {
   display: flex;
-  flex-direction: column;
   min-height: 100vh;
   padding: 20px;
   font-size: 1rem;
 }
 
-.QualityConcepts section {
+.TechnicalReviews section {
   margin-bottom: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.QualityConcepts p {
-  text-align: justify;
+.TechnicalReviews section li {
+  list-style: circle;
 }
 
-.QualityConcepts img {
-  width: 90%;
-  margin-top: 40px;
-}
-
-.QualityConcepts .references {
+.TechnicalReviews .references {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -34,37 +28,24 @@
   margin-bottom: 40px;
 }
 
-.QualityConcepts .references li {
+.TechnicalReviews .references li {
   font-size: 1rem;
   line-height: 1.5rem;
   list-style: circle;
 }
 
-.QualityConcepts .references h3 {
+.TechnicalReviews .references h3 {
   font-weight: 400;
   text-align: center;
   color: rgb(189, 195, 199);
 }
 
-.QualityConcepts .references li {
+.TechnicalReviews .references li {
   color: rgb(189, 195, 199);
 }
 
-.QualityConcepts .assurance li {
-  font-size: 1rem;
-  line-height: 2.5rem;
-  list-style: circle;
-  text-align: justify;
-}
-
-.control li {
-  list-style: decimal;
-  line-height: 1.5rem;
-  text-align: justify;
-}
-
 @media (min-width: 1024px) {
-  .QualityConcepts {
+  .TechnicalReviews {
     flex-direction: row;
   }
 }

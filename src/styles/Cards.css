@@ -1,5 +1,6 @@
 .Cards {
   background-color: #34495e;
+  padding: 30px 0px 20px 0px;
 }
 
 .Cards div{
@@ -7,7 +8,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 24px;
 }
 
 .Cards div a {
@@ -21,6 +21,10 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+  }
+
+  .Cards div{
+    padding: 24px;
   }
 }
 

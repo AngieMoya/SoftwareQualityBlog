@@ -23,7 +23,7 @@ function Navbar({ setStateBackgroundMode }) {
   return (
     <nav>
       <div className={`name ${textColor}`}>
-        <h1><Link className={textColor} to="/">Angie Moya U.</Link></h1>
+        <h1><Link className={textColor} to="/">Academy</Link></h1>
       </div>
       <div className="rightNavbar">
         <ul>
@@ -34,7 +34,7 @@ function Navbar({ setStateBackgroundMode }) {
           </li>
           <li>
             <Link className={textColor} to="aboutme">
-              Sobre mí
+              Sobre el autor
             </Link>
           </li>
         </ul>

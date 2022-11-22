@@ -1,13 +1,26 @@
 import React from "react";
+import { Outlet, useOutletContext } from "react-router-dom";
+import "../styles/Content.css";
 
-function Content({title, data}){
-    return(
-        <aside className="Content webContent">
-            <h2>{title}</h2>
-            <ul>
-                {data.map( list => (<li key={list}><a>{list}</a></li>))}
-            </ul>
-        </aside>
-    )
+function Content({ title, data }) {
+  const { stateBackgroundMode } = useOutletContext();
+  const textChange = stateBackgroundMode ? "headerTextDark" : "headerTextLight";
+
+  return (
+    <aside className="Content webContent">
+      <div className="fixedContent">
+        <h2>{title}</h2>
+        <ul>
+          {data.map((list) => (
+            <li key={list}>
+              <a className={textChange} href={`#${list}`}>
+                {list}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </aside>
+  );
 }
 export default Content;

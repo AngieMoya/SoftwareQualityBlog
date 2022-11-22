@@ -13,24 +13,23 @@ const Unity1 = [
 ];
 
 const Unity2 = [
-  "Estándares de calidad de software",
-  "Normas y modelos de referencia",
+  "Normas y estándares de calidad para el desarrollo del software",
   "Modelo CMMI",
 ];
 
 const Unity3 = [
-  "Objetivos",
-  "Versiones y trazabilidad",
+  "Calidad de procesos y productos",
   "Planeación de la verificación y validación",
-  "Inspecciones del software",
-  "Flujo de trabajo",
+  "Métricas en el software",
+  "Medidas de la calidad de productos de software",
+  "Medidas de la calidad de procesos de software",
 ];
 
 const Unity4 = [
-  "La junta de revisión",
-  "Informe de la revisión y conservación de registros",
+  "¿Que es?",
+  "Asistentes a revisión",
+  "Reporte y registro de la revisión",
   "Directrices de la revisión",
-  "Revisiones basadas en muestras",
 ];
 
 

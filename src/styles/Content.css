@@ -1,0 +1,25 @@
+.webContent {
+  display: none;
+  border-right: 2px solid rgba(189, 195, 199, 0.2);
+}
+
+.webContent li {
+  line-height: 2.5rem;
+}
+
+.Content .fixedContent {
+  position: fixed;
+  max-width: 20%;
+}
+
+.Content h2 {
+  text-align: center;
+}
+
+@media (min-width: 1024px) {
+  .webContent {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+  }
+}

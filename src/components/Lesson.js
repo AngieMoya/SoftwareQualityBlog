@@ -1,8 +1,9 @@
 import React from "react";
+import "../styles/Lesson.css";
 
-function Lesson({ title, content }) {
+function Lesson({ title, content, id }) {
   return (
-    <div className="Lesson responsiveLesson">
+    <div id={id} className="Lesson responsiveLesson">
       <h2>{title}</h2>
       <p>{content}</p>
     </div>

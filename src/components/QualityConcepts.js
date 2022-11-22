@@ -18,7 +18,7 @@ function QualityConcepts() {
       <Content title="Conceptos de Calidad" data={Unity1} />
       <div className="lessonContainer">
         <section className="intro">
-          <Lesson
+          <Lesson id="Introducción a la Calidad"
             title="Introducción a la calidad"
             content="Se puede decir que la calidad es algo que va implícito en los genes 
             de la humanidad; es la capacidad que tiene el ser humano de hacer bien las cosas. 
@@ -45,7 +45,7 @@ function QualityConcepts() {
         </section>
 
         <section className="control">
-          <Lesson
+          <Lesson id="Control de Calidad"
             title="Control de la Calidad"
             content="Control de calidad es el proceso de regulación a través del cual podemos medir la calidad real, compararla con las normas y actuar sobre la diferencia. Los otros significados de control de calidad son:"
           />
@@ -70,7 +70,7 @@ function QualityConcepts() {
 
         <section className="assurance">
           <div>
-            <Lesson
+            <Lesson id="Aseguramiento de la Calidad"
               title="Aseguramiento de la calidad"
               content="Son todas aquellas acciones planificadas 
           que dan la confianza adecuada para que un producto o servicio cumpla determinadosrequisitos de calidad. 
@@ -101,7 +101,7 @@ function QualityConcepts() {
         </section>
 
         <section className="sqaactivity">
-          <Lesson title="Aseguramiento de calidad de software - SQA" content="Una de las definiciones más utilizadas de SQA es la propuesta por 
+          <Lesson id="SQA" title="Aseguramiento de calidad de software - SQA" content="Una de las definiciones más utilizadas de SQA es la propuesta por 
           el IEEE, El aseguramiento de la calidad del software es un conjunto de actividades que definen y evalúan la 
           adecuación del proceso de software para proporcionar evidencia que establece la confianza de que los procesos 
           de software son apropiados y producen productos de software de calidad adecuada para los procesos previstos. 

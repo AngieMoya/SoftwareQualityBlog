@@ -1,0 +1,19 @@
+.lessonContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.responsiveLesson {
+  text-align: justify;
+}
+
+.responsiveLesson h2 {
+  text-align: center;
+}
+
+@media (min-width: 1024px) {
+  .lessonContainer {
+    width: 70%;
+    padding: 20px;
+  }
+}
