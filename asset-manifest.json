@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/SoftwareQualityBlog/static/css/main.cd39fccd.css",
+    "main.js": "/SoftwareQualityBlog/static/js/main.88e0a64e.js",
+    "static/js/787.76dda07b.chunk.js": "/SoftwareQualityBlog/static/js/787.76dda07b.chunk.js",
+    "static/media/joan-gamell-XmZ4GDAp9G0-unsplash.jpg": "/SoftwareQualityBlog/static/media/joan-gamell-XmZ4GDAp9G0-unsplash.bbcb5eafd37e5f878ec2.jpg",
+    "static/media/thisisengineering-raeng-8Jw2WhafOOg-unsplash.jpg": "/SoftwareQualityBlog/static/media/thisisengineering-raeng-8Jw2WhafOOg-unsplash.f8a53c2227f6d0bcecbf.jpg",
+    "static/media/sigmund-LyF5jsdcYW0-unsplash.jpg": "/SoftwareQualityBlog/static/media/sigmund-LyF5jsdcYW0-unsplash.532e9bfb02eea4d1d3f3.jpg",
+    "static/media/fotis-fotopoulos-xQ2qynQ92xs-unsplash.jpg": "/SoftwareQualityBlog/static/media/fotis-fotopoulos-xQ2qynQ92xs-unsplash.48a16aaa3b8f125e464d.jpg",
+    "static/media/normas.png": "/SoftwareQualityBlog/static/media/normas.0a05c6e166ca910ee990.png",
+    "static/media/ext-int-quality.png": "/SoftwareQualityBlog/static/media/ext-int-quality.f58ca44617562f8ba464.png",
+    "static/media/iso.png": "/SoftwareQualityBlog/static/media/iso.7d13634311b350c08524.png",
+    "static/media/profile.jpeg": "/SoftwareQualityBlog/static/media/profile.2f051f71da89c77ee4a5.jpeg",
+    "static/media/instagram.png": "/SoftwareQualityBlog/static/media/instagram.e719d8b29f452a16302d.png",
+    "static/media/certificate.png": "/SoftwareQualityBlog/static/media/certificate.c1973fad60fcf0f4fea9.png",
+    "static/media/cmmi.jpg": "/SoftwareQualityBlog/static/media/cmmi.3ef02043cda3e6c0ca68.jpg",
+    "static/media/badge.png": "/SoftwareQualityBlog/static/media/badge.8fa8508f1cc173b0436a.png",
+    "static/media/explore.png": "/SoftwareQualityBlog/static/media/explore.9f739cc4506ea31ac024.png",
+    "static/media/qcontrol.png": "/SoftwareQualityBlog/static/media/qcontrol.460e5c0cce4b873f7ca2.png",
+    "static/media/sun.png": "/SoftwareQualityBlog/static/media/sun.8cd9b555bb193ca4b052.png",
+    "static/media/assurance.png": "/SoftwareQualityBlog/static/media/assurance.b49d52aa2ee809d9ae1e.png",
+    "static/media/linkedin.png": "/SoftwareQualityBlog/static/media/linkedin.f249b38224ca41a0b909.png",
+    "static/media/qa.png": "/SoftwareQualityBlog/static/media/qa.fd7a8157deb74727d372.png",
+    "index.html": "/SoftwareQualityBlog/index.html",
+    "main.cd39fccd.css.map": "/SoftwareQualityBlog/static/css/main.cd39fccd.css.map",
+    "main.88e0a64e.js.map": "/SoftwareQualityBlog/static/js/main.88e0a64e.js.map",
+    "787.76dda07b.chunk.js.map": "/SoftwareQualityBlog/static/js/787.76dda07b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd39fccd.css",
+    "static/js/main.88e0a64e.js"
+  ]
+}
